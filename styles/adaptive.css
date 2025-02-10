@@ -1,0 +1,390 @@
+@media screen and (min-width: 1941px) {
+    .line1 {
+        /*display: none;*/
+        width: 50%;
+        left: 25%;
+    }
+
+    .line2 {
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 1940px) {
+    .line1 {
+        width: 90%;
+    }
+    .line2 {
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 988px) {
+
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .stackCards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 10px;
+        column-gap: 50px;
+        row-gap: 50px;
+    }
+
+    .card1,
+    .card3,
+    .card5,
+    .card7 {
+        grid-column: 1 / 3;
+    }
+
+    .card2,
+    .card4,
+    .card6,
+    .card8 {
+        grid-column: 3 / 5;
+    }
+
+    .card9 {
+        grid-column: 2 / 4;
+    }
+
+    .reviewsDescription {
+        max-width: 700px;
+        margin: 0 auto 100px auto;
+    }
+
+    .line2 {
+        top: 3900px;
+        left: 150px;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .twoParts {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    
+    .leftPart {
+        text-align: center;
+    }
+
+    .leftPart h1 {
+        font-size: 37px;
+    }
+
+    .actionLeft {
+        display: none;
+    }
+
+    .squareRight {
+        height: 400px;
+        width: 320px;
+    }
+
+    .photoRight {
+        height: 400px;
+        width: 320px;
+    }
+
+    .secondSection {
+        margin-top: 0;
+    }
+
+    .portfolioTitle,
+    .stackTitle,
+    .reviewsTitle,
+    .contactsTitle {
+        font-size: 35px;
+    }
+
+    .stack {
+        margin-top: 150px;
+    }
+
+    .thirdSection {
+        margin-top: 100px;
+    }
+
+    .reviewsDescription {
+        font-size: 22px;
+    }
+
+    .fourthSection {
+        margin-top: 120px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .popupDescription {
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 783px) {
+    .slick-prev {
+        left: -10px;
+    }
+
+    .slick-next {
+        right: -10px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9 {
+        width: 100%;
+    }
+
+    .contactsCard a svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .line2 {
+        top: 4000px;
+        left: 50px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    header .container {
+        padding: 0;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .menuList {
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+    }
+
+    .menuList li:first-child {
+        margin: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .portfolioTitle,
+    .stackTitle,
+    .reviewsTitle,
+    .contactsTitle {
+        font-size: 30px;
+    }
+
+
+    .stackCardImg img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .reviewsDescription {
+        font-size: 19px;
+    }
+
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .line2 {
+        top: 3500px;
+        left: 50px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .accordion-body {
+        font-size: 14px;
+    }
+
+    #macaroons,
+    #hookah,
+    #pizza,
+    #tea,
+    #cookies,
+    #trip {
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .aboutMe {
+        padding-top: 60px;
+    }
+    .stackCards {
+        grid-template-columns: 1fr;
+    }
+
+    .stackCard {
+        grid-column: 1 / 2;
+    }
+
+    .reviewsAction .btn {
+        padding: 10px;
+    }
+
+    .menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .menuList {
+        display: none;
+    }
+
+    .reviewsTitle {
+        margin-bottom: 50px;
+    }
+
+    .reviewsDescription {
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .line2 {
+        display: none;
+    }
+
+
+    .contactsCard {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        max-width: 300px;
+    }
+
+    .telegram,
+    .vk {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .popup-with-zoom-anim {
+        display: none;
+    }
+
+    .linkToSite {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .line2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    .descriptionLeft {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .aboutMe {
+        padding-top: 50px;
+    }
+
+    .twoParts {
+        row-gap: 20px;
+    }
+
+    .leftPart h1 {
+        font-size: 33px;
+    }
+
+    .squareRight {
+        height: 350px;
+        width: 280px;
+    }
+
+    .photoRight {
+        height: 350px;
+        width: 280px;
+    }
+
+    .site {
+        width: 100%;
+        height: 100%;
+    }
+
+    .site img {
+        width: 100%;
+    }
+
+    .portfolioTitle,
+    .stackTitle,
+    .reviewsTitle,
+    .contactsTitle {
+        font-size: 26px;
+    }
+
+    .reviewsDescription {
+        font-size: 16px;
+    }
+
+    .reviewsAction .btn {
+        font-size: 16px;
+    }
+
+    .contactsCard {
+        row-gap: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
